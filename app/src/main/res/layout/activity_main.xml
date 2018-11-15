@@ -1,0 +1,80 @@
+<RelativeLayout tools:context=".MainActivity" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:map="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <fragment android:layout_height="337dp"
+        android:layout_width="match_parent" tools:layout="@layout/fragment_list_vi" map:uiZoomControls="true"
+        android:layout_marginTop="39dp" android:layout_below="@id/app_bar"
+        android:layout_above="@+id/id" class="com.google.android.gms.maps.SupportMapFragment"
+        android:name="com.example.natharam.searchtoilet.ListVi"
+        android:id="@+id/mapsubmit"/>
+
+    <EditText android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_above="@+id/location"
+        android:id="@+id/id"
+        android:inputType="textPersonName"
+        android:hint="Name of Toilet"
+        android:ems="10"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:id="@+id/type"
+        android:layout_width="131dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:ems="10"
+        android:hint="Public/Private"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/textView3"
+        android:layout_width="131dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/add_toilet"
+        android:ems="10"
+        android:hint="Cost if applicable"
+        android:inputType="number" />
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_above="@+id/type"
+        android:id="@+id/location"
+        android:inputType="textPersonName"
+        android:hint="Enter Location" android:ems="10"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"/>
+
+    <Button
+        android:id="@+id/add_toilet"
+        android:layout_width="65dp"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="onClick"
+        android:text="Add " />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:theme="@style/RatingBar"
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="185dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/type"
+        android:text="Add Remark"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="20dp"
+        android:layout_alignParentRight="true" />
+
+</RelativeLayout>

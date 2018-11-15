@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReViewActivity">
+
+    <fragment
+        android:id="@+id/traking_map"
+        android:name="com.example.natharam.searchtoilet.ListVi"
+        class="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        map:uiZoomControls="true"
+        tools:layout="@layout/fragment_list_vi"
+
+        />
+
+    <Button
+        android:id="@+id/review"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/traking_map"
+        android:onClick="onClick"
+        android:text="REVIEW" />
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/reviewfragment"
+
+        />
+
+
+</RelativeLayout>

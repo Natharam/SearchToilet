@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Toilet Finder</string>
+    <string name="google_maps_key">AIzaSyDQ_6xqzikTYJycvRg8_1CfzJAKO6UNcVU</string>
+
+
+    <string name="title_activity_maps">Map</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+    <string name="hello_blank_fragment">Toilet Finder</string>
+
+    <string name="navigation_drawer_open">Hello blank fragment</string>
+
+    <string name="navigation_drawer_close">Hello blank fragment</string>
+    <string name="commensd">sdfdafdsaafdsfdsfsdfdsfsdfdsfsdfsdffsdfwefwfefsdfsddfdsfdssfdsfdfdfdfd</string>
+</resources>

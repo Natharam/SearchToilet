@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:background="@color/White"
+    android:layoutDirection="locale"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+
+        android:layout_marginStart="12dp"
+        android:textColor="#ff000000"
+        android:textColorHighlight="@color/dark_blue"
+        android:textSize="18dp"
+        android:layout_marginBottom="2dp"
+        android:text="rwererewrwerweerr"
+        android:textStyle="bold"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="12dp" />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="28dp"
+          android:layout_marginTop="25dp"
+
+          android:layout_marginRight="30dp"
+        android:layout_alignParentEnd="true"
+       android:layout_marginBottom="3dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/directionicon"
+        android:layout_alignParentRight="true" />
+    <TextView
+        android:id="@+id/snippet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="34dp"
+        android:textColor="#ff7f7f7f"
+
+        />
+
+    <RatingBar
+        android:id="@+id/ratingBar3"
+        style="@style/Widget.AppCompat.RatingBar.Small"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:numStars="5"
+        android:rating="1.5" />
+
+</RelativeLayout>

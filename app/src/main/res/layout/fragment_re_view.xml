@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    tools:context=".ReViewFragment"
+
+
+    >
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        >
+
+
+        <ImageView
+            android:id="@+id/images"
+            android:layout_width="match_parent"
+
+            android:layout_height="150dp"
+            android:layout_alignParentLeft="true"
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/toilet" />
+
+        <EditText
+            android:id="@+id/editComments"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/images"
+            android:layout_marginRight="70dp"
+            android:layout_marginTop="16dp"
+            android:hint="Add coment"
+            android:maxLength="130" />
+
+        <android.support.v7.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/recyclercommen"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/ratingBar2"
+            android:scrollbars="vertical">
+
+        </android.support.v7.widget.RecyclerView>
+
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginBottom="10dp"
+            android:layout_alignBottom="@+id/images"
+
+            android:layout_toStartOf="@+id/textView7"
+            android:background="@drawable/starimage"
+            android:layout_toLeftOf="@+id/textView7" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="68dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/editComments"
+            android:onClick="onClick"
+            android:text="Add" />
+
+        <RatingBar
+            android:id="@+id/ratingBar2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/editComments"
+            android:theme="@style/RatingBar" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/editComments"
+            android:layout_marginTop="11dp"
+            android:text="Add Reting"
+
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/images"
+            android:layout_alignParentEnd="true"
+
+            android:textColor="@color/vlu_blue"
+            android:textSize="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            tools:text="0.0"
+            android:layout_alignParentRight="true" />
+
+
+    </RelativeLayout>
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+
+
+
+
+</FrameLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "151913866321",
+    "firebase_url": "https://searchtoilet-dff5d.firebaseio.com",
+    "project_id": "searchtoilet-dff5d",
+    "storage_bucket": "searchtoilet-dff5d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:151913866321:android:e3646a1d2ca22b35",
+        "android_client_info": {
+          "package_name": "com.example.natharam.searchtoilet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "151913866321-otfh9ha3qtmg79qko6qio19u27pn80sj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.natharam.searchtoilet",
+            "certificate_hash": "79c5a579592a6cf7a0b27e70fe9cc61f6e7e9224"
+          }
+        },
+        {
+          "client_id": "151913866321-04dliicrj4900aj0r3dvgdsskv4a6l40.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQ_6xqzikTYJycvRg8_1CfzJAKO6UNcVU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "151913866321-04dliicrj4900aj0r3dvgdsskv4a6l40.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
